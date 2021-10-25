@@ -18,6 +18,13 @@ p {
     height: 100px;
     background-color: whitesmoke;
 }
+
+.a {list-style-type: lower-alpha;
+}
+
+.b {list-style-type: square;
+}
+
 a:link, a:visited {
     background-color: white;
     color: black;
