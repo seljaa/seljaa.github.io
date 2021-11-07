@@ -1,0 +1,9 @@
+body {background-color: blue;}
+
+.eka {border: black solid;}
+
+.toka {
+    border: black dotted;
+    border-radius: 8px;
+    background-color: white;
+    }
