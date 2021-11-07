@@ -1,8 +1,10 @@
 body {background-color: black;}
 
 .eka {
-    color: black;
-    border: white solid;}
+    color: white;
+    border: white solid;
+    text-align: center;
+}
 
 .toka {
     color: black;
