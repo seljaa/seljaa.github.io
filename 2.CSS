@@ -15,7 +15,7 @@ body {background-color: black;}
 .study { color: white;}
 
 .kolmas {
-    border: white;
+    border: blue;
     margin-top: 100px;
     margin-bottom: 100px;
     margin-right: 200px;
@@ -24,7 +24,7 @@ body {background-color: black;}
 }
 
 .neljäs {
-    border: white;
+    border: blue;
     background-color: white;
     padding-top: 20px;
     padding-bottom: 20px;
