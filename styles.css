@@ -20,7 +20,7 @@ header {
     height: 500px;
 }
 
-.aa {float: right}
+.aa {text-align: center; }
 
 .moi {
     background-color:white;
