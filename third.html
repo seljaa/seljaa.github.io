@@ -1,32 +1,68 @@
-fourth.html
 <!DOCTYPE html>
 <html lang="en">
 <head>
 <meta charset="utf-8" />
 <title>Selja-a</title>
+<style>
+    header {
+  background-color: black;
+  padding: 30px;
+  text-align: center;
+  font-size: 35px;
+  color: white;
+}
+    nav {
+        float:left;
+        width: 20%;
+        background: lightgray;
+        padding: 20px;
+    }
+
+    .eka {
+        background-color:white;
+        width: 70%;
+        padding: 20px;
+        float: left;
+    }
+
+    footer { 
+        background-color: black;
+        padding: 10px;
+        text-align: center;
+        color: white;
+    }
+    @media (max-width: 600px) {
+  nav, article {
+    width: 100%;
+    height: auto;
+  }
+}
+
+    </style>
 </head>
 <body>
-    <head>
-        <title>First Webpage</title>
-      </head>
-     <body>
-        <header style="background-color: black; height: 80px;width: 100%">
-        <h1 style="font-size: 30px; color: white;text-align: center; padding-top: 15px;">The Webpage</h1>
-       </header>
+<header>
+    <h1>Website</h1>
+    </header>
+</header>
+<section>
+    
+<nav>
+        <ul>
+            <li><a href="https://www.google.com/" target="_blank">Google</a></li>
+            <li><a href="https://www.laurea.fi/" target="_blank">Laurea</a></li>
+            <li><a href="https://www.w3schools.com/" target="_blank">W3schools</a></li>
+            <li><a href="index.html" target="_blank">First side</a></li>
+            <li><a href="second.html" target="_blank">Second side</a></li>
+        </ul>
+    </nav>
+    <div class="eka">
+        Some text, some text, some text, some text
+    </div>
 
-       <nav style="background-color: grey;">
-            <ul>
-                <li><a href="https://www.google.com/" target="_blank">Google</a></li>
-                <li><a href="https://www.laurea.fi/" target="_blank">Laurea</a></li>
-                <li><a href="https://www.w3schools.com/" target="_blank">W3schools</a></li>
-                <li><a href="index.html" target="_blank">First side</a></li>
-                <li><a href="second.html" target="_blank">Second side</a></li>
-            </ul>
-        </nav>
+    <footer>
+        <p>Copyright Selja Anttolainen</p>
+    </footer>
 
-        <footer style="background-color:black; width: 100%; text-align: center;">
-            <h3>Footer Example</h3>
-            <p>© Copyright Selja Anttolainen. </p>
-           </footer>
-          </body>
-	</nav>
+</body>
+</html>
