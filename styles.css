@@ -20,6 +20,14 @@ header {
     height: 300px;
 }
 
+.moi {
+    background-color:white;
+    width: 60%;
+    padding: 20px;
+    float: left;
+    height: 300px;
+}
+
 .hei { 
     border: 2px dotted black;
     height: 40px;
