@@ -1,0 +1,35 @@
+.kolmasheaderi {
+    text-align: center;
+}
+
+.col-lg-4 {
+    border: solid black 1px; 
+    text-align: center;
+}
+
+#kolmaskuva {
+    height: 200px;
+    background-color: lightgray;
+    border: solid black 1px;
+}
+
+#kolmaseka {
+    height: 250px;
+    border: solid black 1px;
+}
+
+#kolmastoka {
+    height: 250px;
+    border: solid black 1px;
+}
+
+#kolmaskolmas {
+    height: 250px;
+    border: solid black 1px;
+}
+
+#kolmasfootteri {
+    height: 50px;
+    border: solid black 1px;
+    text-align: center;
+}
