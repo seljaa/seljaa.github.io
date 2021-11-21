@@ -1,0 +1,36 @@
+.tokaheaderi {
+    text-align: center;
+}
+.col-lg-4 {
+    border: solid black 1px; 
+    text-align: center;
+}
+
+#ekakuva {
+    height: 225px;
+    background-color: lightgray;
+    border: solid black 1px;
+
+}
+
+#ekakolumni {
+    height: 225px;
+    border: solid black 1px;
+}
+
+#tokakolumni {
+    height: 225px;
+    border: solid black 1px;
+}
+
+#tokakuva {
+    height: 225px;
+    background-color: lightgray;
+    border: solid black 1px;
+}
+
+#tokafootteri {
+    text-align: center;
+    height: 50px;
+    border: solid black 1px;
+}
