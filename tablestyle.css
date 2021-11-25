@@ -1,0 +1,62 @@
+body { 
+    background-color: white;
+    color: grey;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.captioni {
+    font-weight: bold;
+    text-align: left;
+}
+
+table, th, td {
+    border-bottom: 2px solid grey;
+    text-align: left;
+}
+
+th {
+    background-color: lightgrey;
+    color: white;
+}
+
+td {
+    background-color: whitesmoke;
+}
+
+#animals {
+    background-color: whitesmoke;
+}
+
+.teksti {
+    background-color:whitesmoke;
+}
+
+#nimi {
+    background-color:whitesmoke;
+    border: solid grey;
+}
+
+#sukunimi {
+    background-color: whitesmoke;
+    border: solid grey;
+}
+
+#E-mail {
+    background-color: whitesmoke;
+    border: solid grey;
+}
+
+.paina {
+    background-color: whitesmoke;
+    border: solid grey;
+}
+
+#nimi[type=text]:focus {
+    background-color: hotpink;
+}
+#sukunimi[type=text]:focus {
+    background-color: paleturquoise;
+}
+#E-mail[type=text]:focus {
+    background-color: lime;
+}
