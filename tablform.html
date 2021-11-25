@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang>
+<head>
+    <link rel="stylesheet" href="tablestylecss.css">
+<meta charset="utf-8" />
+<title>10B</title>
+</head>
+<body>
+
+    <table style="width:100%">
+        <caption class="captioni" >This is caption</caption>
+        <tr>
+            <th>Name</th>
+            <th>Last name</th>
+            <th>E-mail</th>
+        </tr>
+        <tr>
+            <td>
+                <form action="/action_page.php">
+                    <input type="text" id="nimi" name="nimi" required>
+                  </form>
+            </td>
+            <td>
+                <input type="text" id="sukunimi" name="sukunimi" required>
+            </td>
+            <td>
+                <input type="text" id="E-mail" name="E-mail" required>
+            </td>
+        </tr>
+        <tr>
+            <th>Text box</th>
+            <th>Signup for newsletter</th>
+            <th>Select</th>
+        </tr>
+        <tr>
+            <td>
+            <form action="/action_page.php">
+                <textarea class="teksti" rows="4" cols="width 80px" name="comment" required>
+                </textarea>
+            </form>
+            </td>
+            <td> 
+                <form action="/action_page.php">
+                    <input type="checkbox" id="listalle1" name="listalle1" value="Yes">
+                    <label class="lista1" for="listalle1"> Yes</label><br>
+                    <input type="checkbox" id="listalle2" name="listalle2" value="No">
+                    <label for="listalle2"> No</label><br>
+                  </form>
+            </td>
+            <td>
+                <form class="valitse" action="/action_page.php">
+                    <label for="animals">Choose the best:</label>
+                    <select name="animals" id="animals">
+                      <option value="cat">Cat</option>
+                      <option value="dog">Dog</option>
+                      <option value="horse">Horse</option>
+                      <option value="bear">Bear</option>
+                    </select>
+                    <br><br>
+                  </form>
+            </td>
+        </tr>
+        <tr class="valmis">
+            <th>Something</th>
+            <th>Something</th>
+            <th>Submit</th>
+        </tr>
+        <tr class="valmis2">
+            <td>
+                hei
+            </td>
+            <td>
+                hei
+            </td>
+            <td>
+                <input class="paina" type="submit" value="Add new user">
+            </td>
+        </tr>
+      </table>
+
+</body>
+</html>
